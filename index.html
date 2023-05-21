@@ -22,7 +22,7 @@
 <body>
     <header class="header-bloc">
 
-        <div class="header-conteiner container ">
+        <div class="header-conteiner containerr ">
 
 
             <nav class="header-link">
@@ -37,16 +37,88 @@
                 </ul>
             </nav>
 
+            <button type="button" class="burger-button js-open-menu">
+                <svg class="burger-icon" width="32" height="22">
+                    <use href="./images/icons.svg#burger-icon"></use>
+                </svg></button>
+
+
             <address class="main-contact">
 
-                <ul class="menuuu list">
+
+
+                <ul class="menuuu momile-menuuu list">
                     <li><a href="mailto:info@devstudio.com" class="linkk-contact link">info@devstudio.com</a></li>
-                    <li class="contact-second"><a href="tel:+110001111111" class="linkk-contact link">+11 (000)
+                    <li class="contact-second "><a href="tel:+110001111111" class="linkk-contact link">+11
+                            (000)
                             111-11-11</a></li>
                 </ul>
 
             </address>
+
         </div>
+
+
+
+
+
+
+
+
+        <div class="mobile-menu js-menu-container">
+            <div class="mobile-menu-conteiner ">
+                <button type="button" class="mobile-menu-clse-icon js-close-menu">
+                    <svg class="modal-close-btn-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+                </button>
+
+                <ul class="mobile-menuu list">
+                    <li><a href="./index.html" class="mobile-linkk-header coolor link"
+                            style="color: #404bbf;">Studio</a></li>
+                    <li><a href="./portfolio.html" class="mobile-linkk-header link">Portfolio</a></li>
+                    <li><a href="" class="mobile-linkk-header link">Contacts</a></li>
+                </ul>
+
+                <ul class="mobile-menuuu list">
+                    <li class="contact-second"><a href="tel:+110001111111" class="mobile-linkk-contact-first link">+11
+                            (000)
+                            111-11-11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="mobile-linkk-contact link">info@devstudio.com</a>
+                    </li>
+
+                </ul>
+
+
+
+
+
+                <ul class="mobile-four-list-social">
+                    <li class="four-list-child"><a class="four-list-lick" href=""><svg class="four-list-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg></a></li>
+                    <li class="four-list-child"><a class="four-list-lick" href=""><svg class="four-list-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg></a></li>
+                    <li class="four-list-child"><a class="four-list-lick" href=""><svg class="four-list-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg></a></li>
+                    <li class="four-list-child"><a class="four-list-lick" href=""><svg class="four-list-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-liinnked"></use>
+                            </svg></a></li>
+
+                </ul>
+
+
+            </div>
+        </div>
+
+
+
 
 
     </header>
@@ -67,6 +139,9 @@
 
 
         <!--............................................................. second-section -->
+
+
+
         <section class="second-bloc">
             <div class="second-conteiner container">
                 <h2 class="blocc-logo">Huhu</h2>
@@ -134,14 +209,18 @@
 
 
 
-        <!--............................................................. thre-section -->
+        <!-- ............................................................. thre-section -->
+
         <section class="thre-bloc">
             <div class="thre-conteiner container">
                 <h2 class=" logo-thre">What are we doing</h2>
                 <ul class="thre list">
-                    <li class="llink"><img src="./images/dz11.jpg" alt="foto-main1" width="360"></li>
-                    <li class="llink"><img src="./images/dz12.jpg" alt="foto-main1" width="360"></li>
-                    <li class="llink"><img src="./images/dz13.jpg" alt="foto-main1" width="360"></li>
+                    <li class="llink"><img srcset="./images/dz11.jpg 1x, ./images/dz11@2.jpg 2x" src="./images/dz11.jpg"
+                            alt="foto-main1" width="360"></li>
+                    <li class="llink"><img srcset=" ./images/dz12.jpg 1x,  ./images/dz12@2.jpg 2x"
+                            src="./images/dz12.jpg" alt="foto-main1" width="360"></li>
+                    <li class="llink"><img srcset=" ./images/dz13.jpg 1x, ./images/dz13@2.jpg 2x"
+                            src="./images/dz13.jpg" alt="foto-main1" width="360"></li>
                 </ul>
             </div>
         </section>
@@ -153,7 +232,9 @@
 
                 <ul class="four list">
                     <li class="four-link">
-                        <img src="./images/dz14.jpg" alt="foto-main1" width="264">
+
+                        <img srcset=" ./images/dz14.jpg 1x, ./images/dz14@2.jpg 2x" src="./images/dz14.jpg"
+                            alt="foto-main1" width="264">
                         <div class="link-box">
 
 
@@ -185,10 +266,9 @@
 
 
                     <li class="four-link">
-                        <img src="./images/dz15.jpg" alt="foto-main1" width="264">
+                        <img srcset="./images/dz15.jpg 1x ,./images/dz15@2.jpg 2x" src="./images/dz15.jpg"
+                            alt="foto-main1" width="264">
                         <div class="link-box">
-
-
 
                             <h3 class="linkcc-logo">Tom Ford</h3>
 
@@ -217,7 +297,8 @@
 
 
                     <li class="four-link">
-                        <img src="./images/dz16.jpg" alt="foto-main1" width="264">
+                        <img srcset="./images/dz16.jpg 1x, ./images/dz16@2.jpg 2x" src="./images/dz16.jpg"
+                            alt="foto-main1" width="264">
                         <div class="link-box">
 
 
@@ -248,7 +329,8 @@
 
 
                     <li class="four-link">
-                        <img src="./images/dz17.jpg" alt="foto-main1" width="264">
+                        <img srcset="./images/dz17.jpg 1x, ./images/dz17@2.jpg 2x" src="./images/dz17.jpg"
+                            alt="foto-main1" width="264">
                         <div class="link-box">
 
 
@@ -278,6 +360,15 @@
                     </li>
                 </ul>
             </div>
+
+
+
+
+
+
+
+
+
             <!--............................................................. fife-section -->
         </section>
 
@@ -459,7 +550,7 @@
                     <span class="modal-form-input-desc">Comment</span>
                     <textarea name="user-massage" class="modal-form-massage" placeholder="Text input"></textarea>
                 </label>
-                <!-- <label for="user-policy" class="modal-form-check-desc"> -->
+
 
                 <label for="cheeck" class="custom-checkbox">
                     <input id="cheeck" class="hidden-checkbox visibility-hidden" type="checkbox" visibility-hidden>
@@ -469,7 +560,7 @@
                         </svg>
 
                     </span>
-                    <!-- </label> -->
+
 
                     I accept the terms and conditions of the&nbsp;<a href="" class="modal-link">Privacy
                         Policy</a>
@@ -484,6 +575,7 @@
     </div>
 
     <script src="./modal.js"></script>
+    <script src="./mobile-menu.js"></script>
 </body>
 
 </html>
