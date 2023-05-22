@@ -556,7 +556,7 @@ p {
         column-gap: 16px;
         justify-content: center;
         align-items: center;
-        max-width: 428px;
+        max-width: 448px;
         margin: 0 auto;
 
     }
@@ -1828,7 +1828,7 @@ p {
     .four {
 
         padding: 0px;
-        margin: 0;
+        margin: 0 auto;
         max-width: fit-content;
     }
 
