@@ -25,7 +25,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-   
+
 }
 
 ul {
@@ -34,7 +34,10 @@ ul {
     list-style-type: none;
 }
 
-p {
+p,
+h1,
+h2,
+h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -165,9 +168,10 @@ p {
 
     }
 
-    .mobile-menuuu {
-        padding-top: 244px;
+    .mobile-menu {
+        margin-top: auto;
     }
+
 
     .mobile-linkk-contact-first {
         font-weight: 700;
@@ -178,6 +182,7 @@ p {
         color: var(--thre-background-color);
         display: block;
         margin-bottom: 40px;
+
     }
 
     .mobile-linkk-contact {
@@ -187,14 +192,16 @@ p {
         letter-spacing: 0.02em;
         color: var(--parahraf-color);
         display: block;
-        margin-bottom: 48px;
+
+
 
     }
 
 
     .mobile-four-list-social {
         display: flex;
-        justify-content: center;
+        justify-content: left;
+        flex-wrap: wrap;
         gap: 56px;
         list-style-type: none;
 
@@ -215,7 +222,13 @@ p {
         position: fixed;
         width: 100%;
         height: 100%;
-        max-height: 796px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 35px;
         top: 0;
         left: 0;
         background-color: #FFFFFF;
@@ -231,15 +244,16 @@ p {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
+
     }
 
-    .mobile-menu-conteiner {
-        position: relative;
-        padding-top: 80px;
-        padding-bottom: 40px;
-        padding-left: 40px;
-        padding-right: 35px;
+    .mobile-linkk-header:nth-child() {
+        margin-bottom: 40px;
     }
+
+
+
+
 
     /* ..........................................................portholio-mobile  */
     .meenu {
@@ -272,7 +286,6 @@ p {
 
     .firstt {
         display: flex;
-        /* flex-wrap: wrap; */
         column-gap: 24px;
         row-gap: 48px;
         list-style-type: none;
@@ -286,7 +299,7 @@ p {
     .first-bloc {
         background: var(--logo-color);
         padding-top: 112px;
-        padding-bottom: 240px;
+        padding-bottom: 112px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -316,7 +329,7 @@ p {
         letter-spacing: 0.02em;
         color: var(--main-color);
         margin: 0 auto;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 
 
     }
@@ -556,7 +569,7 @@ p {
         column-gap: 16px;
         justify-content: center;
         align-items: center;
-        max-width: 448px;
+        max-width: 428px;
         margin: 0 auto;
 
     }
@@ -855,46 +868,9 @@ p {
 }
 
 /*..................................................... mobile-menuuu-media */
-@media screen and (max-width:767px) {
 
-    /* ...........................................................header */
 
-    .mobile-menu {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        max-height: 796px;
-        top: 0;
-        left: 0;
-        background-color: #FFFFFF;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-        z-index: 1000;
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transition: opacity 500ms linear, visibility 500ms linear;
-    }
 
-    .mobile-menu.is-open {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-    }
-
-    .mobile-menu-conteiner {
-        position: relative;
-        padding-top: 80px;
-        padding-bottom: 40px;
-        padding-left: 40px;
-        padding-right: 35px;
-    }
-}
-
-@media screen and (min-width:767px) {
-    .mobile-menu {
-        display: none;
-    }
-}
 
 
 
@@ -908,6 +884,10 @@ p {
 @media screen and (min-width:768px) {
 
     /* ...........................................................header */
+    .mobile-menu {
+        display: none;
+    }
+
     .container {
         min-width: 768px;
         margin: 0 auto;
@@ -1124,8 +1104,6 @@ p {
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
-        /* text-align: center;
-        align-items: center; */
         letter-spacing: 0.02em;
         color: var(--main-color);
         margin-top: 0;
@@ -1205,15 +1183,15 @@ p {
     }
 
     .second h3 {
-
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 40px;
         text-align: left;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--logo-color);
         margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+
     }
 
     .second p {
@@ -1444,6 +1422,10 @@ p {
 
     }
 
+    .social-footer {
+        margin-right: 80px;
+    }
+
     .last span {
         color: var(--four-section-color);
     }
@@ -1546,6 +1528,8 @@ p {
         flex-direction: row;
         justify-content: center;
         align-items: flex-end;
+        margin-right: 80px;
+
 
     }
 
@@ -1710,6 +1694,7 @@ p {
         background: var(--logo-color);
         padding-top: 188px;
         padding-bottom: 188px;
+        max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1828,7 +1813,7 @@ p {
     .four {
 
         padding: 0px;
-        margin: 0 auto;
+
         max-width: fit-content;
     }
 
@@ -1870,30 +1855,30 @@ p {
     }
 
     .last-continer {
-        margin-right: 120px;
+        margin-right: 110px;
+        height: 0;
     }
 
     .global-footer-box {
         display: flex;
         align-items: baseline;
-        padding-left: 15px;
-        padding-right: 15px;
-        max-width: 1158px;
+
         flex-wrap: nowrap;
+        gap: 0;
+        column-gap: 0;
 
     }
 
     .footer-form {
-        margin-left: 80px;
+
         gap: 24px;
-        position: static;
+        margin-right: 0;
+
     }
 
     .footer-form-submit {
-        margin-left: 0;
-
+        margin-right: 0;
     }
-
 }
 
 
@@ -2412,3 +2397,6 @@ p {
 
 /* ..........................................................portholio-desktop */
 /* @media screen and(min-width:1158px) {
+
+  
+} */
