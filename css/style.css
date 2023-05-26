@@ -110,6 +110,9 @@ h3 {
         padding: 72px 16px 24px 16px;
 
     }
+     .mobile-menuu {
+        margin-bottom: auto
+    }
 
     .container {
         max-width: 428px;
