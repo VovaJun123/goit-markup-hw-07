@@ -672,6 +672,10 @@ h3 {
         margin-left: auto;
     }
 
+    .last-continer a {
+    text-align: center;
+    display: block;
+}
     .last {
         display: inline-block;
         align-items: center;
