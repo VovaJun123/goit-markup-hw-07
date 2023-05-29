@@ -2436,7 +2436,9 @@ h3 {
 
 /* ..........................................................portholio-table */
 @media screen and (min-width:769px) {
-
+.parahraf-conteiner {
+        padding: 64px 0 96px;
+    }
     .meenu {
         display: flex;
         gap: 24px;
@@ -2469,7 +2471,7 @@ h3 {
         justify-content: center;
         align-items: center;
         width: 754px;
-        margin-bottom: 96px;
+       
 
     }
 
