@@ -2424,6 +2424,11 @@ h3 {
         color: var(--logo-color);
         margin-bottom: 8px;
     }
+    .second-parahraf {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--parahraf-color);
+}
 
 
 
@@ -2490,6 +2495,11 @@ h3 {
         color: var(--logo-color);
         margin-bottom: 8px;
     }
+    .second-parahraf {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--parahraf-color);
+}
 }
 
 /* ..........................................................portholio-desktop */
