@@ -37,6 +37,12 @@
                 </ul>
             </nav>
 
+            <button type="button" class="burger-button js-open-menu">
+                <svg class="burger-icon" width="32" height="22">
+                    <use href="./images/icons.svg#burger-icon"></use>
+                </svg></button>
+
+
             <address class="main-contact">
 
                 <ul class="menuuu list">
@@ -47,6 +53,65 @@
 
             </address>
         </div>
+
+
+
+
+        <div class="mobile-menu js-menu-container">
+            <div class="mobile-menu-conteiner ">
+                <button type="button" class="mobile-menu-clse-icon js-close-menu">
+                    <svg class="modal-close-btn-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-Vector"></use>
+                    </svg>
+                </button>
+
+                <ul class="mobile-menuu list" style="margin-bottom: auto;">
+                    <li><a href="./index.html" class="mobile-linkk-header coolor link">Studio</a></li>
+                    <li><a href="./portfolio.html" class="mobile-linkk-header link"
+                            style="color: #404bbf;">Portfolio</a></li>
+                    <li><a href="" class="mobile-linkk-header link">Contacts</a></li>
+                </ul>
+
+                <ul class="mobile-menuuu list">
+                    <li class="contact-second"><a href="tel:+110001111111" class="mobile-linkk-contact-first link">+11
+                            (000)
+                            111-11-11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="mobile-linkk-contact link">info@devstudio.com</a>
+                    </li>
+
+                </ul>
+
+
+
+
+
+                <ul class="mobile-four-list-social">
+                    <li class="four-list-child"><a class="four-list-lick" href=""><svg class="four-list-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg></a></li>
+                    <li class="four-list-child"><a class="four-list-lick" href=""><svg class="four-list-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg></a></li>
+                    <li class="four-list-child"><a class="four-list-lick" href=""><svg class="four-list-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg></a></li>
+                    <li class="four-list-child"><a class="four-list-lick" href=""><svg class="four-list-icon" width="16"
+                                height="16">
+                                <use href="./images/icons.svg#icon-liinnked"></use>
+                            </svg></a></li>
+
+                </ul>
+
+
+            </div>
+        </div>
+
+
+
+
 
 
     </header>
@@ -81,11 +146,32 @@
 
 
                             <div class="overlay-box">
-                                <img src="./images/img-one.jpg" alt="foto-main1" width="360">
+
                                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
 
                                 </p>
+                                <picture>
+                                    <source srcset="./images/img-one-desktop.jpg 1x, ./images/img-one-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-one-desktop.webp 1x, ./images/img-one-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
+
+                                    <source srcset="./images/img-one-table.jpg 1x, ./images/img-one-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/img-one-table.webp 1x, ./images/img-one-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source srcset="./images/img-one-mobile.jpg 1x, ./images/img-one-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source srcset="./images/img-one-mobile.webp 1x, ./images/img-one-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-one.jpg" alt="foto-main1" width="360px">
+                                </picture>
+
+
                             </div>
                             <div class="link-boxx">
 
@@ -113,7 +199,30 @@
                                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                                 </p>
-                                <img src="./images/img-two.jpg" alt="foto-main1" width="360">
+
+
+                                <picture>
+                                    <source srcset="./images/img-two-desktop.jpg 1x, ./images/img-two-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-two-desktop.webp 1x, ./images/img-two-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
+
+                                    <source srcset="./images/img-two-table.jpg 1x, ./images/img-two-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/img-two-table.webp 1x, ./images/img-two-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source srcset="./images/img-two-mobile.jpg 1x, ./images/img-two-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source srcset="./images/img-two-mobile.webp 1x, ./images/img-two-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-two.jpg" alt="foto-main1" width="360">
+                                </picture>
+
+
+
 
                             </div>
 
@@ -140,7 +249,31 @@
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                                 </p>
 
-                                <img src="./images/img-three.jpg" alt="foto-main1" width="360">
+
+
+                                <picture>
+                                    <source
+                                        srcset="./images/img-thre-desktop.jpg 1x, ./images/img-thre-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-thre-desktop.webp 1x, ./images/img-thre-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
+
+                                    <source srcset="./images/img-thre-table.jpg 1x, ./images/img-thre-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/img-thre-table.webp 1x, ./images/img-thre-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source srcset="./images/img-thre-mobile.jpg 1x, ./images/img-thre-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source
+                                        srcset="./images/img-thre-mobile.webp 1x, ./images/img-thre-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-three.jpg" alt="foto-main1" width="360">
+                                </picture>
+
+
                             </div>
 
 
@@ -172,8 +305,29 @@
                                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                                 </p>
+                                <picture>
+                                    <source
+                                        srcset="./images/img-four-desktop.jpg 1x, ./images/img-four-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-four-desktop.webp 1x, ./images/img-four-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
 
-                                <img src="./images/img-four.jpg" alt="foto-main1" width="360">
+                                    <source srcset="./images/img-four-table.jpg 1x, ./images/img-four-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/img-four-table.webp 1x, ./images/img-four-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source srcset="./images/img-four-mobile.jpg 1x, ./images/img-four-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source
+                                        srcset="./images/img-four-mobile.webp 1x, ./images/img-four-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-four.jpg" alt="foto-main1" width="360">
+                                </picture>
+
+
                             </div>
 
 
@@ -200,7 +354,30 @@
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                                 </p>
 
-                                <img src="./images/img-five.jpg" alt="foto-main1" width="360">
+                                <picture>
+                                    <source
+                                        srcset="./images/img-five-desktop.jpg 1x, ./images/img-fife-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-five-desktop.webp 1x, ./images/img-fife-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
+
+                                    <source srcset="./images/img-five-table.jpg 1x, ./images/img-fife-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/img-five-table.webp 1x, ./images/img-fife-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source srcset="./images/img-five-mobile.jpg 1x, ./images/img-fife-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source
+                                        srcset="./images/img-five-mobile.webp 1x, ./images/img-fife-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-five.jpg" alt="foto-main1" width="360">
+                                </picture>
+
+
+
                             </div>
 
 
@@ -227,7 +404,29 @@
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                                 </p>
 
-                                <img src="./images/img-six.jpg" alt="foto-main1" width="360">
+
+                                <picture>
+                                    <source srcset="./images/img-six-desktop.jpg 1x, ./images/img-six-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-six-desktop.webp 1x, ./images/img-six-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
+
+                                    <source srcset="./images/img-six-table.jpg 1x, ./images/img-six-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/img-six-table.webp 1x, ./images/img-six-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source srcset="./images/img-six-mobile.jpg 1x, ./images/img-six-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source srcset="./images/img-six-mobile.webp 1x, ./images/img-six-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-six.jpg" alt="foto-main1" width="360">
+                                </picture>
+
+
+
                             </div>
 
 
@@ -259,7 +458,33 @@
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                                 </p>
 
-                                <img src="./images/img-seven.jpg" alt="foto-main1" width="360">
+
+                                <picture>
+                                    <source
+                                        srcset="./images/img-seven-desktop.jpg 1x, ./images/img-seven-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-seven-desktop.webp 1x, ./images/img-seven-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
+
+                                    <source srcset="./images/img-seven-table.jpg 1x, ./images/img-seven-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source
+                                        srcset="./images/img-seven-table.webp 1x, ./images/img-seven-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source
+                                        srcset="./images/img-seven-mobile.jpg 1x, ./images/img-seven-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source
+                                        srcset="./images/img-seven-mobile.webp 1x, ./images/img-seven-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-seven.jpg" alt="foto-main1" width="360">
+                                </picture>
+
+
+
                             </div>
 
 
@@ -282,10 +507,35 @@
                             <div class="overlay-box">
 
 
-                                <img src="./images/img-eight.jpg" alt="foto-main1" width="360">
+                                <!-- <img src="./images/img-eight.jpg" alt="foto-main1" width="360"> -->
                                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                                 </p>
+
+
+                                <picture>
+                                    <source
+                                        srcset="./images/img-eight-desktop.jpg 1x, ./images/img-eight-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-eight-desktop.webp 1x, ./images/img-eight-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
+
+                                    <source srcset="./images/img-eight-table.jpg 1x, ./images/img-eight-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source
+                                        srcset="./images/img-eight-table.webp 1x, ./images/img-eight-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source
+                                        srcset="./images/img-eight-mobile.jpg 1x, ./images/img-eight-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source
+                                        srcset="./images/img-eight-mobile.webp 1x, ./images/img-eight-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-eight.jpg" alt="foto-main1" width="360">
+                                </picture>
 
                             </div>
 
@@ -309,11 +559,34 @@
                     <li class="firstt-link aaaaa">
                         <a href="" class="link">
                             <div class="overlay-box">
-                                <img src="./images/img-nine.jpg" alt="foto-main1" width="360">
+                                <!-- <img src="./images/img-nine.jpg" alt="foto-main1" width="360"> -->
 
                                 <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                                 </p>
+
+
+                                <picture>
+                                    <source
+                                        srcset="./images/img-nine-desktop.jpg 1x, ./images/img-nine-desktop@2.jpg 2x"
+                                        media="(min-width: 1158px)" />
+                                    <source
+                                        srcset="./images/img-nine-desktop.webp 1x, ./images/img-nine-desktop@2.webp 2x"
+                                        media="(min-width: 1158px)" type="image/webp" />
+
+                                    <source srcset="./images/img-nine-table.jpg 1x, ./images/img-nine-table@2.jpg 2x"
+                                        media="(min-width: 768px)" />
+                                    <source srcset="./images/img-nine-table.webp 1x, ./images/img-nine-table@2.webp 2x"
+                                        media="(min-width: 768px)" type="image/webp" />
+
+                                    <source srcset="./images/img-nine-mobile.jpg 1x, ./images/img-nine-mobile@2.jpg 2x"
+                                        media="(max-width: 767px)" />
+                                    <source
+                                        srcset="./images/img-nine-mobile.webp 1x, ./images/img-nine-mobile@2.webp 2x"
+                                        media="(max-width: 767px)" type="image/webp" />
+
+                                    <img src="./images/img-nine.jpg" alt="foto-main1" width="360">
+                                </picture>
 
                             </div>
 
@@ -401,6 +674,7 @@
 
     </footer>
 
+    <script src="./mobile-menu.js"></script>
 
 </body>
 
